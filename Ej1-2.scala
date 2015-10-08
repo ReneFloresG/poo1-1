@@ -1,14 +1,12 @@
 println("Presupuesto Anual")
-  val Presupuesto Anual=readFloat()
+  val PresupuestoAnual = readFloat()
 
 println ("Ginecologia")
-val Ginecologia=(Presupuesto/100)*40
-print (Presupuesto de Ginecologia)
+val Ginecologia = (PresupuestoAnual/100)*40
 
 println ("Traumatologia")
-val Traumatologia=(Presupuesto/100)*30
-print (Presupuesto de Traumatologia)
+val Traumatologia = (PresupuestoAnual/100)*30
 
 println ("Pediatria")
-val Pediatria=(Presupuesto/100)*30
-print (Presupuesto de Pediatria)
+val Pediatria = (PresupuestoAnual/100)*30
+
