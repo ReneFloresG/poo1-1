@@ -1,33 +1,76 @@
-print("Elefantes, Opcion 1")
-print("Jirafas, Opcion 2")
-print("Chimpances, Opcion 3")
+option match {
+  case 1 => Elefantes()
+  case 2 => Jirafas()
+  case 3 => Chimpances()
+}
 
-opcion match {
-case 1 => {
+Elefantes()
 
 for (i <- 1 to 20) {
 println(i)
 
+println ("Meses de edad")
+var Meses de edad = readFloat()
+
 var Edad de los Elefantes = new Array[String](40)
 
-println ("Edad de los Elefantes")
-val Edad de los Elefantes=readFloat()
 
+if (Edad de los Elefantes < 12 , Edad de los Elefantes = 12){
+  var 0 a 1 año = new Array[String](40)
+}
+if (Edad de los Elefantes > 12 , Edad de los Elefantes < 36){
+  var 1 a 3 año = new Array[String](40)
+}
+if (Edad de los Elefantes > 36){
+  var 3 o mas años = new Array[String](40)
+}
 }
 
 
 
-opcion match {
-case 2 => {
+Jirafas()
 
 for (i <- 1 to 15) {
 println(i)
 
-var Edad de los Jirafas = new Array[String](40)
+println ("Meses de edad")
+var Meses de edad = readFloat()
 
-println ("Edad de los Jirafas")
-val Edad de los Jirafas=readFloat()
+var Edad de las Jirafas = new Array[String](40)
 
+
+if (Edad de las Jirafas < 12 , Edad de las Jirafas = 12){
+  var 0 a 1 año = new Array[String](40)
+}
+if (Edad de las Jirafas > 12 , Edad de las Jirafas < 36){
+  var 1 a 3 año = new Array[String](40)
+}
+if (Edad de las Jirafas > 36){
+  var 3 o mas años = new Array[String](40)
+}
 }
 
+
+
+Chimpances()
+
+for (i <- 1 to 20) {
+println(i)
+
+println ("Meses de edad")
+var Meses de edad = readFloat()
+
+var Edad de los Chimpances = new Array[String](40)
+
+
+if (Edad de los Chimpances < 12 , Edad de los Chimpances = 12){
+  var 0 a 1 año = new Array[String](40)
+}
+if (Edad de los Chimpances > 12 , Edad de los Chimpances < 36){
+  var 1 a 3 año = new Array[String](40)
+}
+if (Edad de los Chimpances > 36){
+  var 3 o mas años = new Array[String](40)
+}
+}
 
