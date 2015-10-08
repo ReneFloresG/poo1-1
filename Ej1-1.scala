@@ -1,16 +1,20 @@
 println ("Primera claificacion")
-  val clalificacion1=readFloat()
+  var clalificacion1 = readFloat()
 println ("Segunda claificacion")
-  val clalificacion2=readFloat()
+  var clalificacion2 = readFloat()
 println ("Tercera claificacion")
-  val clalificacion3=readFloat()
+  var clalificacion3 = readFloat()
 println ("Examen Final")
-  val clalificacionExamenFinal=readFloat()
+  var clalificacionExamenFinal = readFloat()
 println ("Trabajo Final")
-  val Trabajo Final=readFloat()
+  var TrabajoFinal = readFloat()
 
 val promedio=(calificacion1+calificacion2+calificacion3)/3
 
-val final=promedio*.55+calificacionExamenFinal*.3+TrabajoFinal*.15
+porcentajePromedioCalificacion = (((calificacion1+calificacion2+calificacion3)/3)/100)*55
+porcentajeCalificacionExamenFinal = (clalificacionExamenFinal/100)*30
+porcentajeTrabajoFinal = (TrabajoFinal/100)*15
+
+val final = porcentajePromedioCalificacion+porcentajeCalificacionExamenFinal+porcentajeTrabajoFinal
 
 println ("Calificacion"+Final)
